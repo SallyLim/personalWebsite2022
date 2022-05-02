@@ -1,0 +1,50 @@
+.contactBody {
+    padding: 40px 0px;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+
+}
+
+.contactContent > * { flex: 1; }
+
+.contactLink {
+    text-decoration: none;
+    color: rgb(229, 235, 243);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.contactLinkTitle {
+    color: rgb(142, 199, 210);
+}
+
+.SectionTitle {
+    color: rgb(219, 165, 7);
+    margin: 0;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    outline: 2px solid rgb(229, 235, 243);
+}
+
+.circle:hover {
+    background-color: rgb(229, 235, 243);
+}
+
+.contactDescription:hover {
+    text-decoration: underline;
+}
+/* add animation */

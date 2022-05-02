@@ -1,0 +1,32 @@
+.WorkTab {
+    display: flex;
+    gap: 15px;
+}
+
+.WorkTab {
+    margin-top: 40px;
+}
+
+.tab {
+    flex: 1;
+    border-left: 2px solid rgb(219, 219, 219, 0.2);
+    margin:0;
+    padding: 10px;
+}
+
+.active {
+    border-left: 2px solid rgb(142, 199, 210);
+}
+
+.tabData {
+    flex: 2;
+}
+
+.SectionTitle {
+    color: rgb(219, 165, 7);
+    margin: 0;
+}
+
+.tabTitle {
+    margin:0;
+}

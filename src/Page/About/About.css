@@ -1,0 +1,9 @@
+.SectionTitle {
+    color: rgb(219, 165, 7);
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}

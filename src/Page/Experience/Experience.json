@@ -1,0 +1,83 @@
+[
+     {
+        "name": "FitAtHome",
+        "ProjectType": "Website", 
+        "Event": "NwHacks 2022",
+        "Type": "Dev", 
+        "Language": "React, Figma",
+        "Date": "Feb 2022",
+        "Description":""
+     },
+     {
+        "name": "Spacestagram",
+        "ProjectType": "Website", 
+        "Event": "N/A",
+        "Type": "Dev", 
+        "Language": "React, Three.js",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "moodscape",
+        "ProjectType": "Mobile App Design", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "GitHub Issues",
+        "ProjectType": "Website", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "Hope",
+        "ProjectType": "Mobile App Design", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "Recipe Companion",
+        "ProjectType": "Mobile App Design", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "AR Virtual Wardrobe",
+        "ProjectType": "Mobile App Design", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "PlanMe",
+        "ProjectType": "Mobile App Design", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     },
+     {
+        "name": "HTML Creator",
+        "ProjectType": "Desktop App", 
+        "Event": "VXP Protothon 2021",
+        "Type": "UX", 
+        "Language": "Figma",
+        "Date": "Aug 2021",
+        "Description":""
+     }
+ ]

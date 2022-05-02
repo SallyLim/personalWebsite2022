@@ -1,0 +1,42 @@
+.Text {
+    color: rgb(229, 235, 243);
+    margin:0;
+
+}
+
+.HiText {
+    font-size: 20px;
+}
+
+.NameText {
+    font-size: 70px;
+
+}
+
+.ShortDescription {
+    font-size: 20px;
+    
+}
+
+.TextParentDiv {
+    padding: 150px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30vh;
+}
+
+.secondaryButton {
+    border: 2px solid rgb(229, 235, 243);
+    background-color: rgba(41, 61, 90, 0.99);
+    color: rgb(229, 235, 243);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.secondaryButton:hover {
+    background-color: rgb(229, 235, 243);
+    color: rgba(41, 61, 90, 0.99);
+  }

@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content:end;
+    margin-right: 2%;
+}
+
+.headerItem {
+    margin: 25px;
+    color: rgb(229, 235, 243);
+    text-decoration: none;
+}
+
+.headerItemResume {
+    color: rgba(41, 61, 90, 0.99);
+    background-color: rgb(229, 235, 243);
+    border-radius: 20px;
+    padding: 10px;
+    margin: -10px;
+    text-decoration: none;
+}
