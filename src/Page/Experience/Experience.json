@@ -6,7 +6,10 @@
         "Type": "Dev", 
         "Language": "React, Figma",
         "Date": "Feb 2022",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "small"
      },
      {
         "name": "Spacestagram",
@@ -15,7 +18,10 @@
         "Type": "Dev", 
         "Language": "React, Three.js",
         "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "big"
      },
      {
         "name": "moodscape",
@@ -24,16 +30,10 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
-     },
-     {
-        "name": "GitHub Issues",
-        "ProjectType": "Website", 
-        "Event": "VXP Protothon 2021",
-        "Type": "UX", 
-        "Language": "Figma",
-        "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "big"
      },
      {
         "name": "Hope",
@@ -42,7 +42,10 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "small"
      },
      {
         "name": "Recipe Companion",
@@ -51,7 +54,10 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "small"
      },
      {
         "name": "AR Virtual Wardrobe",
@@ -60,7 +66,10 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "big"
      },
      {
         "name": "PlanMe",
@@ -69,7 +78,10 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "small"
      },
      {
         "name": "HTML Creator",
@@ -78,6 +90,33 @@
         "Type": "UX", 
         "Language": "Figma",
         "Date": "Aug 2021",
-        "Description":""
-     }
+        "Description":"test",
+        "image": "sampleProject.png",
+        "link":"",
+        "category": "big"
+     },
+     {
+      "name": "Bloom",
+      "ProjectType": "Desktop App", 
+      "Event": "VXP Protothon 2021",
+      "Type": "UX", 
+      "Language": "Figma",
+      "Date": "Aug 2021",
+      "Description":"test",
+      "image": "sampleProject.png",
+      "link":"",
+      "category": "small"
+   },
+   {
+      "name": "GitHub Issues",
+      "ProjectType": "Desktop App", 
+      "Event": "VXP Protothon 2021",
+      "Type": "UX", 
+      "Language": "Figma",
+      "Date": "Aug 2021",
+      "Description":"test",
+      "image": "sampleProject.png",
+      "link":"",
+      "category": "small"
+   }
  ]

@@ -21,3 +21,4 @@ export default Header;
 
 // TODO: change href links
 // TODO: sticky header
+//TODO: make responsive - shrink into icon

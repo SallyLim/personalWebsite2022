@@ -4,6 +4,7 @@ function Contact() {
   return (
     <div div className="contactBody">
         <h2 className='SectionTitle'>Let's chat!</h2>
+        <p>I'm currently looking for internship experiences. Whether you have a question or just want to say hi, my contact information is below!</p>
         <div className='contactContent'>
             <div className="contactCard">
                 <a className='contactLink' href="mailto:lim.sally20@gmail.com">

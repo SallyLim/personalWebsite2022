@@ -7,3 +7,59 @@
     padding: 40px 0px;
 
 }
+
+.flex {
+    display: flex;
+    margin:30px 0;
+    flex-wrap: wrap;
+    gap:5px;
+    width: 100%;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: rgb(52, 77, 113, 0.3);
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.card > * {
+    color: rgb(229, 235, 243);;
+
+}
+
+.projectImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.projectImage:hover {
+    opacity: 1;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.type {
+    font-size: 12px;
+}
+
+.name {
+
+}
+.language {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.flexCards {
+    width: 300px;
+}

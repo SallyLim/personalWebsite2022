@@ -28,7 +28,7 @@
 
 .secondaryButton {
     border: 2px solid rgb(229, 235, 243);
-    background-color: rgba(41, 61, 90, 0.99);
+    background-color: rgb(25, 37, 54);
     color: rgb(229, 235, 243);
     padding: 10px 20px;
     font-size: 16px;
@@ -38,5 +38,5 @@
 
 .secondaryButton:hover {
     background-color: rgb(229, 235, 243);
-    color: rgba(41, 61, 90, 0.99);
+    color: rgb(25, 37, 54);
   }

@@ -24,3 +24,4 @@ function App() {
 export default App;
 
 //TODO: check responsiveness -> mobile compatibility
+//Autoscroll align?
