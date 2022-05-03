@@ -4,48 +4,69 @@
        "JobTitle": "UX Designer", 
        "Date": "Jan 2022 - Apr 2022",
        "Type": "UX",
-       "Description": ["sample 1", "sample 2"]
+       "Description": [
+        "Created mockups with Sketch for BlackBerry IVY Console, an automotive platform in partnership with AWS", 
+        "Ran usability testing to formulate User Journey Map to find areas for improvements; It has been incorporated into the product release process, and it is now a core process within the developer experience development",
+        "Conducted User Acceptance Testing to validate the console for each release",
+        "Built wireframe library to aid in communication of design ideas and allow for faster iteration of designs",
+        "Initiated the addition of Spacing constants to design system"
+    ]
     },
     {
         "Company": "UBC Faculy of Forestry",
         "JobTitle": "Learning Technology Rover", 
         "Date": "May 2021 - Apr 2022",
         "Type": "Work Learn Program",
-       "Description": ["sample 1", "sample 2"]
+       "Description": ["Coded changes to the Django TA application portal using Python",
+         "Created a Docker container to deploy website",
+         "Redesigned and implemented the Teaching Learning support website in WordPress using HTML & CSS",
+         "Created summary report graphics for the 2020/21 Winter term student survey using R",
+         "Wrote guides to support faculty regarding Learning Technologies such as Canvas"
+        ]
     },
     {
         "Company": "Jostle Corporation",
         "JobTitle": "Front End Developer", 
         "Date": "Sept 2021 - Dec 2021",
         "Type": "Dev",
-        "Description": ["sample 1", "sample 2"]
-    },
-    {
-        "Company": "UBC Recreations",
-        "JobTitle": "Facilities Operations Staff", 
-        "Date": "Apr 2019 - Apr 2021",
-        "Type": "Service",
-        "Description": ["sample 1", "sample 2"]
+        "Description": ["Created reusable components for tooltips and mobile swipe gesture with Storybook, React and TypeScript after extensive research on tooling and accessibility",
+        "Implemented a quick action that let users mute or mark a task as read using Redux to update the UI and send GraphQL mutations to the Google Web Toolkit backend",
+        "Revamped Jostle’s design system by performing audit on all platform components, conducting precedent study of 4 popular design systems to gather ideas, and building components in Figma with atomic design in mind using variants and auto layout"
+    ]
     },
     {
         "Company": "UBC Visual Cognition Lab",
         "JobTitle": "UI/UX Designer & Front End Developer", 
         "Date": "Jul 2021 - Nov 2021",
         "Type": "Volunteer",
-        "Description": ["sample 1", "sample 2"]
+        "Description": ["Coded the project information card component using React and TypeScript",
+            "Designed a central web app for the lab members using Figma",
+            "Conducted user-interviews; implemented changes based on user feedback such as “Join the Team” page"
+        ]
+    },
+    {
+        "Company": "UBC Recreations",
+        "JobTitle": "Facilities Operations Staff", 
+        "Date": "Apr 2019 - Apr 2021",
+        "Type": "Service",
+        "Description": ["Worked in a fast-paced environment to provide front-line service to students, faculty, staff, and community users of the fitness gyms; assisted patrons with various communication methods"]
     },
     {
         "Company": "UBC Science Undergraduate Society",
         "JobTitle": "Sales Commissioner", 
         "Date": "Oct 2020 – Apr 2021",
         "Type": "Volunteer",
-        "Description": ["sample 1", "sample 2"]
+        "Description": ["Designed Science Undergraduate merchandise products; created online sales platform using Squarespace",
+        "Ideated, planned, and executed marketing strategies like giveaways and design challenges"]
     },
     {
         "Company": "Dr. Peter Zandstra's Lab",
         "JobTitle": "Research Assistant", 
         "Date": "Nov 2020 – Jan 2021",
         "Type": "Volunteer",
-        "Description": ["sample 1", "sample 2"]
+        "Description": ["Assisted a PhD student in developing a ML algorithm for cell segmentation",
+            "Read research papers to gain background knowledge",
+            "Researched and tested different software in relation to the research goal"
+        ]
     }
 ]

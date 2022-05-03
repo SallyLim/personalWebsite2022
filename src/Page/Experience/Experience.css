@@ -22,12 +22,9 @@
 }
 
 .card {
-    justify-content: center;
-    align-items: center;
     background-color: rgb(52, 77, 113, 0.3);
     flex: 1;
     padding: 20px;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
@@ -75,4 +72,15 @@
 .iconLink {
     fill:rgb(229, 235, 243);
     width: 18px;
+    margin: 0 10px;
+}
+
+.iconGroup {
+    display: flex;
+    align-items: flex-start;
+}
+
+.iconFlexContainer {
+    display: flex;
+    justify-content: space-between;
 }

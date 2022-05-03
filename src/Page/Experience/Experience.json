@@ -98,7 +98,7 @@
         "Date": "Aug 2021",
         "Description":"A no-code desktop application using Java that generates an HTML web page for users without programming knowledge with a user-friendly interface to simplify the process",
         "image": "htmlcreator.png",
-        "githubLink":"https://github.com/SallyLim/HTMLCreator",
+        "gitHubLink":"https://github.com/SallyLim/HTMLCreator",
         "category": "big"
      },
      {
@@ -123,7 +123,7 @@
       "Date": "June 2021",
       "Description":"Website with React that displays GitHub Issues from Username and Repository name",
       "image": "sampleProject.png",
-      "githubLink": "https://github.com/SallyLim/github-issues-list",
+      "gitHubLink": "https://github.com/SallyLim/github-issues-list",
       "category": "small"
    }
  ]

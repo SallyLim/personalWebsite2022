@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './Experience.css';
 import { ReactComponent as Gear } from './gears.svg';
-import { ReactComponent as GitHub } from './github.svg';
 import { ReactComponent as Link } from './link.svg';
 
 function Experience() {
@@ -11,7 +10,7 @@ function Experience() {
   return (
     <a id='experience'>
       <div className='experienceBody'>
-        <h2 className='sectionTitle'>Some Things I've Built</h2>
+          <h2 className='sectionTitle'>Some Things I've Built</h2>
         <div className='bigProjectCardsContainer'>
           {experienceData.filter(experienceData => experienceData.category === "big").map((experienceData) =>
               <div className='flex'>
@@ -20,12 +19,20 @@ function Experience() {
                 </div>
                 <div className='card'>
                   <div>
+                  <div className='iconFlexContainer'>
                     <p className='type'>{experienceData.ProjectType}</p>
+                    <div className='iconGroup'>
+                      {experienceData.gitHubLink && <a className='link' href={experienceData.gitHubLink}><img className="iconLink" src="github.png" /></a>}
+                      {experienceData.devpostLink && <a className='link' href={experienceData.devpostLink}><img className="iconLink" src="devpost.png" /></a>}
+                      {experienceData.videoLink && <a className='link' href={experienceData.videoLink}><img className="iconLink" src="video.png" /></a>}
+                      {experienceData.figmaLink && <a className='link' href={experienceData.figmaLink}><img className="iconLink" src="figma.png" /></a>}
+                      {experienceData.websiteLink && <a className='link' href={experienceData.websiteLink}><Link className="iconLink" /></a>}
+                    </div>
+                  </div>
                     <h4 className='name'>{experienceData.name}</h4>
                     <p className='description'>{experienceData.Description}</p>
                     <p className='language'>{experienceData.Language}</p>
                   </div>
-                  {experienceData.websiteLink && <a className='link' href={experienceData.websiteLink}><Link className="iconLink" /></a>}
                 </div>
               </div>
             )}
@@ -37,17 +44,21 @@ function Experience() {
               <div className='flex flexCards'>
                 <div className='card cardSmall'>
                   <div>
+                    <div className='iconFlexContainer'>
                     <Gear width="30px"/>
+                    <div className='iconGroup'>
+                      {experienceData.gitHubLink && <a className='link' href={experienceData.gitHubLink}><img className="iconLink" src="github.png" /></a>}
+                      {experienceData.devpostLink && <a className='link' href={experienceData.devpostLink}><img className="iconLink" src="devpost.png" /></a>}
+                      {experienceData.videoLink && <a className='link' href={experienceData.videoLink}><img className="iconLink" src="video.png" /></a>}
+                      {experienceData.figmaLink && <a className='link' href={experienceData.figmaLink}><img className="iconLink" src="figma.png" /></a>}
+                      {experienceData.websiteLink && <a className='link' href={experienceData.websiteLink}><Link className="iconLink" /></a>}
+                    </div>
+                  </div>
                     <p className='type'>{experienceData.ProjectType}</p>
                     <h4 className='name'>{experienceData.name}</h4>
                     <p className='description'>{experienceData.Description}</p>
                     <p className='language'>{experienceData.Language}</p>
                   </div>
-                  <a className='link' href={experienceData.link}>Link</a>
-                  {/* different icons depending on type of link 
-                  render it conditionally
-                  link with icon
-                  */}
                 </div>
               </div>
             )}

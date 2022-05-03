@@ -26,7 +26,7 @@ function Work() {
                 <p className='date'>{activeData.Date}</p>
                 <ul>
                     {activeData.Description.map((description) => 
-                        <li>{description}</li>
+                        <li className='workDescription'>{description}</li>
                     )} 
                 </ul>
             </div>

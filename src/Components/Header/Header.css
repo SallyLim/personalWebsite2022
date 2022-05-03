@@ -17,10 +17,16 @@
 }
 
 .headerItemResume {
-    color: rgba(41, 61, 90, 0.99);
+    color: rgb(25, 37, 54);
     background-color: rgb(219, 165, 7);
     border-radius: 20px;
     padding: 10px 20px;
     margin: -10px;
     text-decoration: none;
+}
+
+.headerItemResume:hover {
+    background-color: rgb(25, 37, 54);
+    color: rgb(219, 165, 7);
+    outline: 2px solid rgb(219, 165, 7);
 }

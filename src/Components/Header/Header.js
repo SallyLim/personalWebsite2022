@@ -9,7 +9,7 @@ function Header() {
             <a className='headerItem' href="#work">Work</a>
             <a className='headerItem' href="#experience">Experience</a>
             <a className='headerItem' href="#contact">Contact</a>
-          <a href="http://www.sallylim.ca/" className='headerItem'>
+          <a href="Sally Lim's Resume.pdf" target="_blank" className='headerItem'>
             <p className='headerItemResume'>Resume</p>
           </a>
       </div>
