@@ -1,0 +1,19 @@
+.footerBody {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.footer {
+    display: flex;
+    justify-content:end;
+    padding-right: 2%;
+    position: sticky;
+    background-color: rgb(20, 30, 43);
+    box-shadow: rgb(13, 18, 27, 0.2) 0px 8px 24px;
+}
+
+.footerItem {
+    margin: 25px;
+    color: rgb(229, 235, 243);
+    text-decoration: none;
+}

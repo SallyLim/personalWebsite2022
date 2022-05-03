@@ -1,5 +1,5 @@
 .contactBody {
-    padding: 40px 0px;
+    padding: 40px 0px 20vh 0;
 }
 
 .contactContent {
@@ -38,13 +38,24 @@
     height: 100px;
     border-radius: 50px;
     outline: 2px solid rgb(229, 235, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-.circle:hover {
+.contactCard:hover .circle{
     background-color: rgb(229, 235, 243);
 }
 
-.contactDescription:hover {
-    text-decoration: underline;
+/* TODO add animation */
+
+.icon {
+    width: 20px;
+    fill:rgb(229, 235, 243);
 }
-/* add animation */
+
+.contactCard:hover .icon {
+    fill: rgb(25, 37, 54);
+}
+

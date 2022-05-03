@@ -11,41 +11,41 @@
         "JobTitle": "Learning Technology Rover", 
         "Date": "May 2021 - Apr 2022",
         "Type": "Work Learn Program",
-       "Description": []
+       "Description": ["sample 1", "sample 2"]
     },
     {
         "Company": "Jostle Corporation",
         "JobTitle": "Front End Developer", 
         "Date": "Sept 2021 - Dec 2021",
         "Type": "Dev",
-        "Description": []
+        "Description": ["sample 1", "sample 2"]
     },
     {
         "Company": "UBC Recreations",
         "JobTitle": "Facilities Operations Staff", 
         "Date": "Apr 2019 - Apr 2021",
         "Type": "Service",
-        "Description": []
+        "Description": ["sample 1", "sample 2"]
     },
     {
         "Company": "UBC Visual Cognition Lab",
         "JobTitle": "UI/UX Designer & Front End Developer", 
         "Date": "Jul 2021 - Nov 2021",
         "Type": "Volunteer",
-        "Description": []
+        "Description": ["sample 1", "sample 2"]
     },
     {
-        "Company": "SUS",
-        "JobTitle": "Website", 
-        "Date": "NwHacks 2022",
-        "Type": "Design",
-        "Description": []
+        "Company": "UBC Science Undergraduate Society",
+        "JobTitle": "Sales Commissioner", 
+        "Date": "Oct 2020 – Apr 2021",
+        "Type": "Volunteer",
+        "Description": ["sample 1", "sample 2"]
     },
     {
         "Company": "Dr. Peter Zandstra's Lab",
         "JobTitle": "Research Assistant", 
-        "Date": "NwHacks 2022",
+        "Date": "Nov 2020 – Jan 2021",
         "Type": "Volunteer",
-        "Description": []
+        "Description": ["sample 1", "sample 2"]
     }
 ]

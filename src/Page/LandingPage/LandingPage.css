@@ -6,6 +6,7 @@
 
 .HiText {
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .NameText {
@@ -23,20 +24,27 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    min-height: 30vh;
+    min-height: 56vh;
+    font-family: 'Inconsolata', monospace;
+}
+
+.TextParentDiv > * {
+    font-family: 'Inconsolata', monospace;
 }
 
 .secondaryButton {
-    border: 2px solid rgb(229, 235, 243);
+    border: 2px solid rgb(219, 165, 7);
     background-color: rgb(25, 37, 54);
-    color: rgb(229, 235, 243);
+    color: rgb(219, 165, 7);
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
     width: 150px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .secondaryButton:hover {
-    background-color: rgb(229, 235, 243);
+    background-color: rgb(219, 165, 7);
     color: rgb(25, 37, 54);
-  }
+}

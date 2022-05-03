@@ -1,25 +1,29 @@
-.SectionTitle {
+.sectionTitle {
     color: rgb(219, 165, 7);
     margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 32px;
 }
 
-.ExperienceBody {
-    padding: 40px 0px;
-
+.experienceBody {
+    padding: 40px 0px 30vh 0;
 }
 
 .flex {
     display: flex;
     margin:30px 0;
     flex-wrap: wrap;
-    gap:5px;
+    gap:20px;
     width: 100%;
+}
+
+.flexSmallExperience {
+    gap: 10px;
 }
 
 .card {
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
     background-color: rgb(52, 77, 113, 0.3);
     flex: 1;
     padding: 20px;
@@ -27,6 +31,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    min-width: 200px;
 }
 
 .card > * {
@@ -38,9 +43,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px;
     object-fit: cover;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .projectImage:hover {
@@ -52,9 +56,6 @@
     font-size: 12px;
 }
 
-.name {
-
-}
 .language {
     font-style: italic;
     font-size: 12px;
@@ -62,4 +63,16 @@
 
 .flexCards {
     width: 300px;
+    height: 325px;
+    margin: 0;
+    gap: 10px;
+}
+
+.bigProjectCardsContainer {
+    margin: 40px 0 60px 0;
+}
+
+.iconLink {
+    fill:rgb(229, 235, 243);
+    width: 18px;
 }

@@ -5,8 +5,6 @@
 
 .flex {
     display: flex;
-    /* gap: 20px; */
-    flex-direction: row;
 }
 
 .textFlexbox {
@@ -15,4 +13,23 @@
 
 .imageFlexbox {
     flex:1;
+    box-shadow: rgb(15, 22, 32) 0px 3px 8px;
+
+}
+
+.workBody {
+    margin: 35vh 0;
+}
+
+.introduction {
+    line-height:32px;
+    margin-top: 50px;
+
+}
+
+
+.introductionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

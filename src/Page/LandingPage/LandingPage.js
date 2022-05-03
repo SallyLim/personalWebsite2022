@@ -8,7 +8,7 @@ function LandingPage() {
       {/* <p className="Text ShortDescription">
           I am a Computer Science student
       </p> */}
-      <button className="secondaryButton" href="http://www.sallylim.ca/">Contact me</button>
+      <a href="mailto:lim.sally20@gmail.com"><button className="secondaryButton">Contact me</button></a>
     </div>
   );
 }

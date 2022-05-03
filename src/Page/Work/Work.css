@@ -1,6 +1,6 @@
 .WorkTab {
     display: flex;
-    gap: 15px;
+    gap: 60px;
 }
 
 .WorkTab {
@@ -11,15 +11,29 @@
     flex: 1;
     border-left: 5px solid rgb(219, 219, 219, 0.2);
     margin:0;
-    padding: 10px;
+    padding: 15px 10px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(219, 219, 219, 0.2);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    font-size: 14px;
+
+}
+
+.tab:hover {
+    color: white;
+    background-color: rgb(229, 235, 243,0.1);
+    cursor: pointer;
 }
 
 .active {
     border-left: 5px solid rgb(142, 199, 210);
+    color: rgb(229, 235, 243);
+
 }
 
 .tabData {
     flex: 2;
+    padding-top: 10px;
 }
 
 .SectionTitle {
@@ -30,3 +44,17 @@
 .tabTitle {
     margin:0;
 }
+
+ul {
+    list-style: none;
+ }
+ 
+ ul li::before {
+    content: "\2022";
+    color: rgb(219, 165, 7);
+    padding: 5px;
+ }
+
+ .date {
+     font-size: 12px;
+ }

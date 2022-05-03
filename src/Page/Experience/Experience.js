@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import './Experience.css';
 import { ReactComponent as Gear } from './gears.svg';
+import { ReactComponent as GitHub } from './github.svg';
+import { ReactComponent as Link } from './link.svg';
 
 function Experience() {
 
   const experienceData= require('./Experience.json'); 
 
   return (
-    <div className='ExperienceBody'>
-        <h2 className='SectionTitle'>Some Things I've Built</h2>
-        <div>
+    <a id='experience'>
+      <div className='experienceBody'>
+        <h2 className='sectionTitle'>Some Things I've Built</h2>
+        <div className='bigProjectCardsContainer'>
           {experienceData.filter(experienceData => experienceData.category === "big").map((experienceData) =>
               <div className='flex'>
                 <div className="projectImage">
@@ -22,14 +25,14 @@ function Experience() {
                     <p className='description'>{experienceData.Description}</p>
                     <p className='language'>{experienceData.Language}</p>
                   </div>
-                  <a className='link' href={experienceData.link}>Link</a>
+                  {experienceData.websiteLink && <a className='link' href={experienceData.websiteLink}><Link className="iconLink" /></a>}
                 </div>
               </div>
             )}
         </div>
         <div>
           <h3 className='SectionTitle'>Other Projects</h3>
-          <div className='flex'>
+          <div className='flex flexSmallExperience'>
           {experienceData.filter(experienceData => experienceData.category === "small").map((experienceData) =>
               <div className='flex flexCards'>
                 <div className='card cardSmall'>
@@ -41,12 +44,17 @@ function Experience() {
                     <p className='language'>{experienceData.Language}</p>
                   </div>
                   <a className='link' href={experienceData.link}>Link</a>
+                  {/* different icons depending on type of link 
+                  render it conditionally
+                  link with icon
+                  */}
                 </div>
               </div>
             )}
           </div>
         </div>
     </div>
+    </a>
   );
 }
 

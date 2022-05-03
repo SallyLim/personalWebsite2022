@@ -10,7 +10,8 @@ function Work() {
     const [activeData, setActiveData] = useState(workData[0]);
 
   return (
-    <div>
+      <a id="work">
+        <div className="workBody">
         <h2 className='SectionTitle'>Where I've Worked</h2>
         <div className='WorkTab'>
             <div>
@@ -22,7 +23,7 @@ function Work() {
             )}</div>
             <div className='tabData'>
                 <h3 className='tabTitle'>{activeData.JobTitle} @ {activeData.Company}</h3>
-                <p>{activeData.Date}</p>
+                <p className='date'>{activeData.Date}</p>
                 <ul>
                     {activeData.Description.map((description) => 
                         <li>{description}</li>
@@ -31,6 +32,8 @@ function Work() {
             </div>
         </div>
     </div>
+      </a>
+
   );
 }
 
